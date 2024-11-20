@@ -12,7 +12,7 @@ import Register from "../components/register/Register";
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "../components/forgotpassword/ForgotPassword";
 import MyProfile from "../components/myProfile/MyProfile";
-import UpdateProfile from "../components/updateProfile/UpdateProfile";
+import UpdateProfile from "../components/updateProfiles/UpdateProfile";
 
 const router = createBrowserRouter([
     {
