@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Carlos Mendoza",
+        "title": "Spanish Language Expert",
+        "description": "Carlos has over 10 years of experience teaching Spanish to students of all levels. He is passionate about helping learners achieve fluency through practical and engaging lessons.",
+        "img": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Sofia Rodriguez",
+        "title": "Bilingual Instructor (English & Spanish)",
+        "description": "Sofia focuses on conversational Spanish, helping students build confidence in speaking and understanding the language in real-life situations.",
+        "img": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Javier López",
+        "title": "Cultural and Language Enthusiast",
+        "description": "Javier combines Spanish language lessons with cultural insights, making learning not just educational but also immersive and fun.",
+        "img": "https://randomuser.me/api/portraits/men/30.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Isabella Martín",
+        "title": "Certified Spanish Tutor",
+        "description": "With a background in linguistics, Isabella specializes in teaching Spanish grammar and writing skills, ensuring her students gain a strong foundation.",
+        "img": "https://randomuser.me/api/portraits/women/35.jpg"
+    }
+]
