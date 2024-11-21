@@ -1,8 +1,8 @@
 
 import React from 'react';
 import banimg1 from '../../assets/ban1.jpg'
-import banimg2 from '../../assets/ban2.jpg'
-import banimg4 from '../../assets/ban4.jpg'
+import banimg2 from '../../assets/ban88.jpg'
+import banimg4 from '../../assets/banner22.jpg'
 
 const Banner = () => {
     return (
