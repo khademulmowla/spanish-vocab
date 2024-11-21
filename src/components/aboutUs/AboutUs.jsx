@@ -31,7 +31,7 @@ const AboutUs = () => {
                                     Our Mission
                                 </h2>
                                 <p className="text-gray-800 font-thin ">
-                                    At Vocab, our mission is to empower individuals worldwide by helping them master the Spanish language, unlocking opportunities for cultural understanding, personal growth, and global connections. Through innovative tools, engaging content, and expert guidance, we aim to make learning Spanish an enjoyable and rewarding experience for learners of all levels.
+                                    At Lingo Bingo, our mission is to empower individuals worldwide by helping them master the Spanish language, unlocking opportunities for cultural understanding, personal growth, and global connections. Through innovative tools, engaging content, and expert guidance, we aim to make learning Spanish an enjoyable and rewarding experience for learners of all levels.
                                 </p>
                             </div>
                             <div>

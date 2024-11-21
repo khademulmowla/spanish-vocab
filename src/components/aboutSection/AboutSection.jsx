@@ -6,10 +6,10 @@ const AboutSection = () => {
     return (
         <div className="text-center py-12 bg-gradient-to-r from-blue-100 via-sky-100 to-teal-100">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 animate__animated animate__zoomIn animate__delay-1s">
-                About <span className="text-teal-500">Vocab</span>
+                About <span className="text-teal-500">Lingo Bingo</span>
             </h2>
             <p className="text-lg text-gray-800 max-w-3xl mx-auto px-6">
-                Vocab is dedicated to making Spanish vocabulary learning accessible, interactive, and enjoyable.
+                Lingo Bingo is dedicated to making Spanish vocabulary learning accessible, interactive, and enjoyable.
                 Our platform is designed to help learners of all levels master essential Spanish words and phrases,
                 improving their communication skills and confidence in the language.
             </p>

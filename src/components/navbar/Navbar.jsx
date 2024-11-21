@@ -43,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
-                    <h1 className="text-4xl md:text-5xl text-blue-900 font-bold">Vocab</h1>
+                    <h1 className="text-3xl md:text-4xl text-blue-900 font-bold">Lingo Bingo</h1>
                     <div className="navbar-center hidden lg:flex ">
                         <ul className="menu menu-horizontal px-1">
                             {links}
