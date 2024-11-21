@@ -13,13 +13,13 @@ const StartLearning = () => {
                     assignment-9 | Start Learning
                 </title>
             </Helmet>
-            <h1 className="text-3xl font-bold text-center text-blue-900 my-8">Let's Start Learning!</h1>
+            <h1 className="text-3xl md:text-4xl  font-bold text-center text-blue-900 my-8">Let's Start Learning!</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
                 {vocabData.slice(0, 10).map((item) => (
                     <NavLink
                         key={item.Id}
                         to={`/lessons/${item.Lesson_no}`}
-                        className="bg-teal-600 text-white text-lg font-semibold py-4 px-6 rounded-lg shadow-md hover:bg-orange-600 hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+                        className="bg-teal-600 text-white text-lg font-semibold py-4 px-6 rounded-lg shadow-md hover:bg-blue-800 hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
                     >
                         <h3 className="text-center">Lesson {item.Lesson_no}</h3>
                     </NavLink>
@@ -27,7 +27,7 @@ const StartLearning = () => {
             </div>
             <div className="tutorial-section my-10">
                 <div className='text-center mb-20'>
-                    <h2 className="text-3xl text-center font-bold text-blue-900 mb-4 transform -rotate-6 inline-block px-4 py-2 rounded-lg shadow-md">
+                    <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-900 mb-4 transform -rotate-6 inline-block px-4 py-2 rounded-lg shadow-md">
                         Learn the Alphabet
                     </h2>
                 </div>

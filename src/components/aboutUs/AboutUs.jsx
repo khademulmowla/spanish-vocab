@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import ceoImg from '../../assets/ceo.jpg';
-import contentImg from '../../assets/content.jpg';
-import lanImg from '../../assets/lanex.jpg';
-import devImg from '../../assets/dev.jpg'
+import ceoImg from '../../assets/ceo2.jpeg';
+import contentImg from '../../assets//fcon.png';
+import lanImg from '../../assets/lanTea.png';
+import devImg from '../../assets/dev5.png'
 
 const AboutUs = () => {
     return (
@@ -13,11 +13,11 @@ const AboutUs = () => {
                     assignment-9 | About Us
                 </title>
             </Helmet>
-            <div className="min-h-screen bg-base-200 rounded-xl py-8 px-4 lg:px-20">
+            <div className="min-h-screen bg-base-200 rounded-b-lg py-8 px-4 lg:px-20">
                 <div className="max-w-7xl mx-auto">
                     {/* Page Header */}
                     <header className="text-center mb-12">
-                        <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
+                        <h1 className="text-3xl md:text-4xl font-bold text-blue-900">
                             About Us
                         </h1>
                         <p className="mt-4 text-lg text-gray-600">
@@ -45,7 +45,7 @@ const AboutUs = () => {
                         </div>
                     </section>
                     <section>
-                        <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">
+                        <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-8">
                             Meet Our Team
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

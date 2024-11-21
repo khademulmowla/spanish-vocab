@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const AboutSection = () => {
     return (
         <div className="text-center py-12 bg-gradient-to-r from-blue-100 via-sky-100 to-teal-100">
-            <h2 className="text-4xl font-bold text-blue-900 mb-6 animate__animated animate__zoomIn animate__delay-1s">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 animate__animated animate__zoomIn animate__delay-1s">
                 About <span className="text-teal-500">Vocab</span>
             </h2>
             <p className="text-lg text-gray-800 max-w-3xl mx-auto px-6">

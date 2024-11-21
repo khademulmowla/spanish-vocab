@@ -5,7 +5,7 @@ const VocabSchool = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center bg-gray-50 px-8 py-16">
             <div className="lg:w-1/2 text-center lg:text-left">
-                <h2 className="text-4xl font-bold text-blue-900 mb-4">Vocabulary School</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Vocabulary School</h2>
                 <p className="text-lg font-light text-gray-600 mb-8">
                     Work with us. Learn with us. Improve with us.
                 </p>
