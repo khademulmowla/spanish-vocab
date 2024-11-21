@@ -8,12 +8,12 @@ const AboutSection = () => {
             <h2 className="text-4xl font-bold text-blue-900 mb-6 animate__animated animate__zoomIn animate__delay-1s">
                 About <span className="text-teal-500">Vocab</span>
             </h2>
-            <p className="text-lg text-gray-800 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-800 max-w-3xl mx-auto px-6">
                 Vocab is dedicated to making Spanish vocabulary learning accessible, interactive, and enjoyable.
                 Our platform is designed to help learners of all levels master essential Spanish words and phrases,
                 improving their communication skills and confidence in the language.
             </p>
-            <p className="text-lg text-gray-800 max-w-3xl mx-auto mt-6">
+            <p className="text-lg text-gray-800 max-w-3xl mx-auto mt-6 px-6">
                 With curated lessons, real-life examples, and engaging activities, users can effortlessly expand their vocabulary
                 and understand how to use new words in context. Our mission is to simplify learning through an intuitive approach,
                 ensuring that everyone can progress at their own pace while enjoying the process.

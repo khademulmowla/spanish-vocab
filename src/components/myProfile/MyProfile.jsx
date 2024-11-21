@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../provider/AuthProvider';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const MyProfile = () => {
     const { user } = useContext(AuthContext);
@@ -10,6 +11,11 @@ const MyProfile = () => {
     }
     return (
         <div className="container mx-auto p-6 flex justify-center items-center min-h-screen">
+            <Helmet>
+                <title>
+                    assignment-9 | My Profile
+                </title>
+            </Helmet>
             <div className='bg-white shadow-lg rounded-lg p-6 max-w-md w-full'>
                 <h1 className="text-3xl font-bold text-blue-900 mb-2">Welcome, {user.displayName}</h1>
                 <div className="flex justify-center mb-4">

@@ -1,12 +1,18 @@
 import React from 'react';
 import { useLoaderData, NavLink, Link } from 'react-router-dom';
 import pinImg from '../../assets/pin.png'
+import { Helmet } from 'react-helmet-async';
 
 const StartLearning = () => {
     const vocabData = useLoaderData();
 
     return (
         <div className='w-11/12 mx-auto'>
+            <Helmet>
+                <title>
+                    assignment-9 | Start Learning
+                </title>
+            </Helmet>
             <h1 className="text-3xl font-bold text-center text-blue-900 my-8">Let's Start Learning!</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
                 {vocabData.slice(0, 10).map((item) => (

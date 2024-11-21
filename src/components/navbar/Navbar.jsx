@@ -11,7 +11,7 @@ const Navbar = () => {
         <header className="bg-gray-50">
             <div className="container mx-auto flex flex-wrap items-center justify-between px-4 py-3">
                 <div className="flex items-center space-x-6">
-                    <h1 className=" md:text-4xl text-blue-900 font-bold">Vocab</h1>
+                    <h1 className=" text-3xl md:text-4xl text-blue-900 font-bold">Vocab</h1>
                     <nav className="hidden md:flex space-x-4">
                         <NavLink className="font-semibold text-blue-900" to="/">Home</NavLink>
                         <NavLink className="font-semibold text-blue-900" to="/startlearning">Start Learning</NavLink>

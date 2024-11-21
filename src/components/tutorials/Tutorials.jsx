@@ -1,10 +1,16 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link, useLoaderData } from 'react-router-dom';
 
 const Tutorials = () => {
     const videos = useLoaderData();
     return (
         <div className="card shadow-lg bg-base-100 w-full max-w-4xl mx-auto p-6">
+            <Helmet>
+                <title>
+                    assignment-9 | Tutorials
+                </title>
+            </Helmet>
             <h2 className="text-3xl text-blue-900 font-bold mb-4 text-center">Tutorial Videos</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
